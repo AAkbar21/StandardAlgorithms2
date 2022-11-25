@@ -71,6 +71,16 @@ func linearSearch(_ data: [Int], _ criteria: Int) -> Int {
   return found
 }
 
+
+func binarySearch(arr: [Int], criteria: Int) -> String {
+  var low = 0
+  var high = arr.count-1
+  var mid = (high+low)/2
+
+  if arr[mid] == criteria {
+    
+}
+
 var arr = [1,4,5,2,3,7]
 let test = linearSearch(arr, 3)
 print(test)
