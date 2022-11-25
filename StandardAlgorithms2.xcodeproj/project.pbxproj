@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		6A27ECAE2930E494000213D6 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A27ECAD2930E494000213D6 /* main.swift */; };
+		6A27ECBB2930E5D4000213D6 /* StandardAlgorithmsTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A27ECBA2930E5D4000213D6 /* StandardAlgorithmsTest.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,10 +26,19 @@
 /* Begin PBXFileReference section */
 		6A27ECAA2930E493000213D6 /* StandardAlgorithms2 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = StandardAlgorithms2; sourceTree = BUILT_PRODUCTS_DIR; };
 		6A27ECAD2930E494000213D6 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		6A27ECB82930E5D4000213D6 /* StandardAlgorithmsTest.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StandardAlgorithmsTest.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6A27ECBA2930E5D4000213D6 /* StandardAlgorithmsTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StandardAlgorithmsTest.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		6A27ECA72930E493000213D6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6A27ECB52930E5D4000213D6 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -42,6 +52,7 @@
 			isa = PBXGroup;
 			children = (
 				6A27ECAC2930E494000213D6 /* StandardAlgorithms2 */,
+				6A27ECB92930E5D4000213D6 /* StandardAlgorithmsTest */,
 				6A27ECAB2930E493000213D6 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -50,6 +61,7 @@
 			isa = PBXGroup;
 			children = (
 				6A27ECAA2930E493000213D6 /* StandardAlgorithms2 */,
+				6A27ECB82930E5D4000213D6 /* StandardAlgorithmsTest.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -60,6 +72,14 @@
 				6A27ECAD2930E494000213D6 /* main.swift */,
 			);
 			path = StandardAlgorithms2;
+			sourceTree = "<group>";
+		};
+		6A27ECB92930E5D4000213D6 /* StandardAlgorithmsTest */ = {
+			isa = PBXGroup;
+			children = (
+				6A27ECBA2930E5D4000213D6 /* StandardAlgorithmsTest.swift */,
+			);
+			path = StandardAlgorithmsTest;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -82,6 +102,23 @@
 			productReference = 6A27ECAA2930E493000213D6 /* StandardAlgorithms2 */;
 			productType = "com.apple.product-type.tool";
 		};
+		6A27ECB72930E5D4000213D6 /* StandardAlgorithmsTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6A27ECBC2930E5D4000213D6 /* Build configuration list for PBXNativeTarget "StandardAlgorithmsTest" */;
+			buildPhases = (
+				6A27ECB42930E5D4000213D6 /* Sources */,
+				6A27ECB52930E5D4000213D6 /* Frameworks */,
+				6A27ECB62930E5D4000213D6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = StandardAlgorithmsTest;
+			productName = StandardAlgorithmsTest;
+			productReference = 6A27ECB82930E5D4000213D6 /* StandardAlgorithmsTest.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -93,6 +130,9 @@
 				LastUpgradeCheck = 1320;
 				TargetAttributes = {
 					6A27ECA92930E493000213D6 = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+					6A27ECB72930E5D4000213D6 = {
 						CreatedOnToolsVersion = 13.2.1;
 					};
 				};
@@ -111,9 +151,20 @@
 			projectRoot = "";
 			targets = (
 				6A27ECA92930E493000213D6 /* StandardAlgorithms2 */,
+				6A27ECB72930E5D4000213D6 /* StandardAlgorithmsTest */,
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6A27ECB62930E5D4000213D6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		6A27ECA62930E493000213D6 /* Sources */ = {
@@ -121,6 +172,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				6A27ECAE2930E494000213D6 /* main.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6A27ECB42930E5D4000213D6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6A27ECBB2930E5D4000213D6 /* StandardAlgorithmsTest.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -260,6 +319,34 @@
 			};
 			name = Release;
 		};
+		6A27ECBD2930E5D4000213D6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.AAkbar21.StandardAlgorithmsTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		6A27ECBE2930E5D4000213D6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.AAkbar21.StandardAlgorithmsTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -277,6 +364,15 @@
 			buildConfigurations = (
 				6A27ECB22930E494000213D6 /* Debug */,
 				6A27ECB32930E494000213D6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6A27ECBC2930E5D4000213D6 /* Build configuration list for PBXNativeTarget "StandardAlgorithmsTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6A27ECBD2930E5D4000213D6 /* Debug */,
+				6A27ECBE2930E5D4000213D6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
