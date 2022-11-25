@@ -12,7 +12,7 @@ class StandardAlgorithmsTest: XCTestCase {
         let unsortedArray = [1,4,5,2,3,7]
         let expected = [1,2,3,4,5,7]
         let sorting = SortingAndSearching()
-        let returnvalue = sorting.MergeSort(data: unsortedArray)
+        let returnvalue = sorting.mergeSort(data: unsortedArray)
         XCTAssertEqual(returnvalue, expected)
     }
     
