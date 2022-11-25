@@ -65,7 +65,7 @@ class SortingAndSearching {
       for i in data {
         if data[i] == criteria {
           found = data[i]
-          print("Found \(criteria) at position \(i+1) in the array")
+          print("Found \(criteria) at position \(i+1) in the array ")
           break
         }
       }
